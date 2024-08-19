@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from codebasket.xyz/template/revel-multi/demos/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Aug 2024 20:29:26 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revel - Multipurpose HTML Template</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/sharp-regular.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/sharp-solid.min.css">
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="rv-5-body">
+    <!-- ANIMATED CURSOR START -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <!-- ANIMATED CURSOR END -->
+
+
+    <!-- SEARCH FORM -->
+    <div class="rv-search-modal">
+        <form action="#">
+            <input type="search" name="search" id="rv-search-modal-input" placeholder="Search Here">
+            <button type="submit"><i class="fa-regular fa-magnifying-glass"></i></button>
+        </form>
+
+        <button class="rv-search-modal-close-btn"><i class="fa-regular fa-xmark"></i></button>
+    </div>
+    <!-- SEARCH FORM -->
+
+
+    <!-- HEADER SECTION START -->
+    <header class="rv-5-header rv-1-header to-be-fixed">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-3 col-6">
+                    <a href="index.html" class="logo rv-5-logo d-block d-lg-none"><img src="assets/img/rv-5-logo.png" alt=""></a>
+                    <div class="rv-1-socials d-none d-lg-flex">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 col-lg-6 order-2 order-lg-1">
+                    <div class="rv-1-header-nav__sidebar">
+                        <div class="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
+                            <a href="index.html" class="logo-container "><img src="assets/img/rv-5-logo.png" alt="logo"></a>
+                            <button class="rv-5-mobile-menu-btn rv-3-def-btn rv-1-header-mobile-menu-btn sidebar-close-btn"><i class="fa-regular fa-xmark"></i></button>
+                        </div>
+
+                        <div class="rv-1-header__nav rv-5-header__nav">
+                            <ul class="justify-content-center">
+                                <li>
+                                    <a href="#">Home</a>
+
+                                    <ul class="sub-menu rv-mega-menu">
+                                        <li><a href="index.html">Event</a></li>
+                                        <li><a href="index-2.html">Personal Portfolio</a></li>
+                                        <li><a href="index-3.html">Tiles Shop</a></li>
+                                        <li><a href="index-4.html">Blogger</a></li>
+                                        <li><a href="index-5.html">Wedding Planner</a></li>
+                                        <li><a href="index-6.html">Business Consulting</a></li>
+                                        <li><a href="index-7.html">Medicine</a></li>
+                                        <li><a href="index-8.html">Cleaning Service</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                        <li><a href="projects.html">Projects</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                        <li><a href="team.html">Team Members</a></li>
+                                        <li><a href="404.html">Error 404</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="d-none d-lg-block"><a href="index.html" class="rv-5-logo"><img src="assets/img/rv-5-logo.png" alt="logo"></a></li>
+
+                                <li>
+                                    <a href="#">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="shop-sidebar.html">Shop with Sidebar</a></li>
+                                        <li><a href="product-details.html">Product Details</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-6 order-1 order-lg-2 text-end">
+                    <div class="rv-5-header__actions">
+                        <button class="rv-search-modal-open-btn"><i class="fa-regular fa-magnifying-glass"></i> <span class="txt">Search...</span></button>
+                        <button class="rv-5-cart-btn"><i class="fa-regular fa-bag-shopping"></i> <span class="quantity">0</span></button>
+                        <button class="rv-5-mobile-menu-btn rv-3-def-btn rv-1-header-mobile-menu-btn d-lg-none d-inline-block" id="rv-1-header-mobile-menu-btn">
+                            <i class="fa-bars fa-regular"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+
+
+    <!-- BANNER SECTION START -->
+    <section class="rv-5-banner">
+        <div class="rv-5-banner__slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/rv-5-banner-1.jpg" alt="Banner image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/rv-5-banner-2.jpg" alt="Banner image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/rv-5-banner-3.jpg" alt="Banner image">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="rv-5-banner__bottom">
+                <div class="rv-5-banner__txt-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide rv-5-banner__txt-slide">
+                            <h1 class="rv-5-banner__title rv-text-anime">Elon Gated & Brian Cumin</h1>
+                            <p class="rv-5-banner__sub-title rv-text-anime">We Are Getting Married June 24,2023</p>
+                        </div>
+                        <div class="swiper-slide rv-5-banner__txt-slide">
+                            <h1 class="rv-5-banner__title rv-text-anime">Elon Gated & Brian Cumin</h1>
+                            <p class="rv-5-banner__sub-title rv-text-anime">Love's sweet embrace, as two hearts find their place.</p>
+                        </div>
+                        <div class="swiper-slide rv-5-banner__txt-slide">
+                            <h1 class="rv-5-banner__title rv-text-anime">Elon Gated & Brian Cumin</h1>
+                            <p class="rv-5-banner__sub-title rv-text-anime">In the garden of love, we've chosen to plant our seeds.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rv-5-banner__txt-slider-nav" id="rv-5-banner__txt-slider-nav">
+                    <button class="next">Next <i class="fa-regular fa-arrow-right"></i></button>
+                    <button class="prev"><i class="fa-regular fa-arrow-left"></i> Prev</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER SECTION END -->
+
+
+    <!-- SERVICES SECTION START -->
+    <section class="rv-5-services rv-section-spacing" data-aos="fade-up">
+        <div class="container">
+            <div class="rv-5-section__heading">
+                <h6 class="rv-5-section__sub-title rv-text-anime">Our Services</h6>
+                <h2 class="rv-5-section__title rv-text-anime">Enter Our Wedding & Creative Hub.</h2>
+            </div>
+
+            <div class="rv-5-services__slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="rv-5-service swiper-slide">
+                        <div class="rv-5-service__img">
+                            <img src="assets/img/rv-5-service-1.jpg" alt="Service Image">
+                        </div>
+
+                        <div class="rv-5-service__txt">
+                            <div class="rv-5-service__heading">
+                                <img src="assets/img/rv-5-service-i-1.png" alt="" class="rv-5-service__icon">
+                                <h6 class="rv-5-service__title"><a href="#">Wedding Dress</a></h6>
+                            </div>
+                            <p class="rv-5-service__descr">There are many variations karee passages Ut a vehicula sem rhoncus at available.!</p>
+                            <a href="#" class="rv-5-service__btn">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="rv-5-service swiper-slide">
+                        <div class="rv-5-service__img">
+                            <img src="assets/img/rv-5-service-2.jpg" alt="Service Image">
+                        </div>
+
+                        <div class="rv-5-service__txt">
+                            <div class="rv-5-service__heading">
+                                <img src="assets/img/rv-5-service-i-2.png" alt="" class="rv-5-service__icon">
+                                <h6 class="rv-5-service__title"><a href="#">Cake Design</a></h6>
+                            </div>
+                            <p class="rv-5-service__descr">There are many variations karee passages Ut a vehicula sem rhoncus at available.!</p>
+                            <a href="#" class="rv-5-service__btn">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="rv-5-service swiper-slide">
+                        <div class="rv-5-service__img">
+                            <img src="assets/img/rv-5-service-3.jpg" alt="Service Image">
+                        </div>
+
+                        <div class="rv-5-service__txt">
+                            <div class="rv-5-service__heading">
+                                <img src="assets/img/rv-5-service-i-3.png" alt="" class="rv-5-service__icon">
+                                <h6 class="rv-5-service__title"><a href="#">Event Planning</a></h6>
+                            </div>
+                            <p class="rv-5-service__descr">There are many variations karee passages Ut a vehicula sem rhoncus at available.!</p>
+                            <a href="#" class="rv-5-service__btn">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="rv-5-service swiper-slide">
+                        <div class="rv-5-service__img">
+                            <img src="assets/img/rv-5-service-1.jpg" alt="Service Image">
+                        </div>
+
+                        <div class="rv-5-service__txt">
+                            <div class="rv-5-service__heading">
+                                <img src="assets/img/rv-5-service-i-1.png" alt="" class="rv-5-service__icon">
+                                <h6 class="rv-5-service__title"><a href="#">Wedding Dress</a></h6>
+                            </div>
+                            <p class="rv-5-service__descr">There are many variations karee passages Ut a vehicula sem rhoncus at available.!</p>
+                            <a href="#" class="rv-5-service__btn">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rv-5-services__slider-pagination rv-2-swiper-dots" id="rv-5-services-slider-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES SECTION END -->
+
+
+    <!-- ABOUT SECTION START -->
+    <section class="rv-5-about rv-section-spacing" data-aos="fade-up">
+        <div class="container">
+            <div class="row gy-4 rv-5-about__row align-items-center">
+                <div class="col-lg-6">
+                    <div class="rv-5-about__img">
+                        <img src="assets/img/rv-5-about-img.jpg" alt="Image">
+                        <div class="rv-5-about-stat">
+                            <span class="rv-5-about-stat-number">24+</span>
+                            <span class="rv-5-about-stat-name">years of experience</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="rv-5-about__txt">
+                        <div class="rv-5-section__heading">
+                            <h6 class="rv-5-section__sub-title rv-text-anime">Who We Are</h6>
+                            <h2 class="rv-5-section__title rv-text-anime">Your Dream Wedding Awaits - Let's Begin.</h2>
+                        </div>
+
+                        <p class="rv-5-about__descr">Fusce egestas viverra libero eu elementum. Maecenas sit amet lorem nec eros ullamcorper Vivamus finibus lacinia erat, tristique ligula odio maximus ultricies fermentum egestas.</p>
+
+                        <ul class="rv-5-about__features">
+                            <li class="rv-5-about__feature">Proin Purus Turpis</li>
+                            <li class="rv-5-about__feature">Faucibus Mattis</li>
+                            <li class="rv-5-about__feature">Dipygus Ligula</li>
+                        </ul>
+
+                        <div class="rv-5-about__btns">
+                            <a href="#" class="rv-3-def-btn">More About us</a>
+                            <div class="rv-5-about__call">
+                                <span class="rv-5-about__call-icon"><i class="fa-regular fa-phone-volume"></i></span>
+                                <div class="rv-5-about__call-txt">
+                                    <h6>Our Phone</h6>
+                                    <a href="tel:123654564388" class="">(123) 654 - 5643 88</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rv-5-about__vectors">
+            <img src="assets/img/rv-5-vector-4.png" alt="vector" class="rv-5-about__vector rv-5-about__vector--1" data-aos="slide-right">
+            <img src="assets/img/rv-5-vector-5.png" alt="vector" class="rv-5-about__vector rv-5-about__vector--2" data-aos="slide-left">
+        </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+
+    <!-- CONTACT SECTION START -->
+    <section class="rv-5-contact" data-aos="fade-up">
+        <div class="container-fluid p-0">
+            <!-- rv-5-contact__img-row -->
+            <div class="row g-0 align-items-center justify-content-between">
+                <div class="col">
+                    <div class="rv-5-contact-img">
+                        <img src="assets/img/rv-5-contact-img-1.jpg" alt="Image">
+                    </div>
+                </div>
+
+                <div class="col-xxl col-xl-6  col-md-7 col-10 col-xxs-12">
+                    <div class="rv-5-contact-form-area">
+                        <div class="rv-5-contact-form-area-inner">
+                            <h6 class="rv-5-section__sub-title rv-text-anime">Let's Meet!</h6>
+                            <h3 class="rv-5-section__title rv-text-anime">Request Details</h3>
+
+                            <form action="#" class="rv-5-contact-form">
+                                <input type="text" name="name" id="rv-5-contact-name" placeholder="Full Name">
+                                <input type="email" name="email" id="rv-5-contact-email" placeholder="Email">
+                                <input type="text" name="address" id="rv-5-contact-address" placeholder="Address">
+                                <select name="services" id="rv-5-contact-services">
+                                    <option value="none" hidden>Services</option>
+                                    <option value="wedding-dress">Wedding Dress</option>
+                                    <option value="event-planning">Event Planning</option>
+                                    <option value="cake-design">Cake Desgin</option>
+                                </select>
+
+                                <select name="guest-numbers" id="rv-5-guest-numbers">
+                                    <option value="none" hidden>Number of Guests</option>
+                                    <option value="0-5">0-5</option>
+                                    <option value="5-10">5-10</option>
+                                    <option value="10-15">10-15</option>
+                                    <option value="15+">15+</option>
+                                </select>
+
+                                <select name="meal-preferences" id="rv-5-meal-preferences">
+                                    <option value="none" hidden>Meal Preferences</option>
+                                    <option value="wedding-dress">Wedding Dress</option>
+                                    <option value="event-planning">Event Planning</option>
+                                    <option value="cake-design">Cake Desgin</option>
+                                </select>
+
+                                <button type="submit" class="rv-3-def-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="rv-5-contact-img rv-5-contact-img--2 text-end">
+                        <img src="assets/img/rv-5-contact-img-2.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+
+    <!-- PLANNERS(TEAM) SECTION START -->
+    <section class="rv-5-team rv-section-spacing" data-aos="fade-up">
+        <div class="container">
+            <div class="rv-5-section__heading">
+                <h6 class="rv-5-section__sub-title rv-text-anime">Our Coordinators</h6>
+                <h2 class="rv-5-section__title rv-text-anime">Meet Our Planners</h2>
+            </div>
+
+            <div class="rv-5-team__slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide rv-5-member">
+                        <div class="rv-5-member__img">
+                            <img src="assets/img/rv-5-member-1.jpg" alt="Member Image">
+                        </div>
+
+                        <div class="rv-5-member__txt">
+                            <h6 class="rv-5-member__label">Lead Assistant</h6>
+                            <h5 class="rv-5-member__name"><a href="#">Lurch Schpellchek</a></h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide rv-5-member">
+                        <div class="rv-5-member__img">
+                            <img src="assets/img/rv-5-member-3.jpg" alt="Member Image">
+                        </div>
+
+                        <div class="rv-5-member__txt">
+                            <h6 class="rv-5-member__label">CEO & Founder</h6>
+                            <h5 class="rv-5-member__name"><a href="#">Hugh Saturation</a></h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide rv-5-member">
+                        <div class="rv-5-member__img">
+                            <img src="assets/img/rv-5-member-2.jpg" alt="Member Image">
+                        </div>
+
+                        <div class="rv-5-member__txt">
+                            <h6 class="rv-5-member__label">Makeup Artist</h6>
+                            <h5 class="rv-5-member__name"><a href="#">Norman Gordon</a></h5>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide rv-5-member">
+                        <div class="rv-5-member__img">
+                            <img src="assets/img/rv-5-member-1.jpg" alt="Member Image">
+                        </div>
+
+                        <div class="rv-5-member__txt">
+                            <h6 class="rv-5-member__label">Lead Assistant</h6>
+                            <h5 class="rv-5-member__name"><a href="#">Lurch Schpellchek</a></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rv-5-team-slider-nav">
+                    <button class="prev"><i class="fa-regular fa-arrow-left"></i> Previous</button>
+                    <button class="next">Next <i class="fa-regular fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PLANNERS(TEAM) SECTION END -->
+
+
+    <!-- PORTFOLIO SECTION START -->
+    <section class="rv-5-portfolios bg-defaults" data-aos="fade-up">
+        <div class="rv-5-portfolio">
+            <div class="rv-5-portfolio__img">
+                <img src="assets/img/rv-5-portfolio-1.jpg" alt="Portfolio">
+            </div>
+
+            <div class="rv-5-portfolio__txt">
+                <span class="rv-5-portfolio__infos">
+                    <span class="loaction">China</span> - <span class="date">24 Sep 2018</span>
+                </span>
+                <h5 class="rv-5-portfolio__name"><a href="#" class="rv-text-anime">Brian & Montana</a></h5>
+            </div>
+        </div>
+
+        <div class="rv-5-portfolio">
+            <div class="rv-5-portfolio__img">
+                <img src="assets/img/rv-5-portfolio-2.jpg" alt="Portfolio">
+            </div>
+
+            <div class="rv-5-portfolio__txt">
+                <span class="rv-5-portfolio__infos">
+                    <span class="loaction">London</span> - <span class="date">22 June 2020</span>
+                </span>
+                <h5 class="rv-5-portfolio__name"><a href="#" class="rv-text-anime">Brandon & Fletch</a></h5>
+            </div>
+        </div>
+
+        <div class="rv-5-portfolio">
+            <div class="rv-5-portfolio__img">
+                <img src="assets/img/rv-5-portfolio-3.jpg" alt="Portfolio">
+            </div>
+
+            <div class="rv-5-portfolio__txt">
+                <span class="rv-5-portfolio__infos">
+                    <span class="loaction">Singapore</span> - <span class="date">26 May 2023</span>
+                </span>
+                <h5 class="rv-5-portfolio__name"><a href="#" class="rv-text-anime">Rodney & Nutrisha</a></h5>
+            </div>
+        </div>
+
+        <div class="rv-5-portfolio">
+            <div class="rv-5-portfolio__img">
+                <img src="assets/img/rv-5-portfolio-4.jpg" alt="Portfolio">
+            </div>
+
+            <div class="rv-5-portfolio__txt">
+                <span class="rv-5-portfolio__infos">
+                    <span class="loaction">Austria</span> - <span class="date">28 June 2023</span>
+                </span>
+                <h5 class="rv-5-portfolio__name"><a href="#" class="rv-text-anime">Phillip & Douchebag</a></h5>
+            </div>
+        </div>
+    </section>
+    <!-- PORTFOLIO SECTION END -->
+
+
+    <!-- TESTIMONIAL SECTION START -->
+    <section class="rv-5-testimonial rv-section-spacing" data-aos="fade-up">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-5 col-sm-6 col-8">
+                    <div class="rv-5-testimonial__img-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide rv-5-testimonial__img-slide">
+                                <img src="assets/img/rv-5-testimony-reviewer-1.png" alt="Reviewer Image">
+                            </div>
+                            <div class="swiper-slide rv-5-testimonial__img-slide">
+                                <img src="assets/img/rv-5-testimony-reviewer-2.jpg" alt="Reviewer Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="rv-5-testimonial__txt-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="rv-5-testimony-txt-slide swiper-slide">
+                                <div class="rv-5-testimony__stars">
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                </div>
+
+                                <p class="rv-5-testimony__txt"><span>Suspends dictum nil sed sem</span> aliquot convallis. dictum ipsum quips mauri's valuate, quips commode ligula auctor laborites est abet mollies Aliquot digicam aliquot Suspends connecter Justo Maecenas meatus Faubus, maximus ligula at.</p>
+
+                                <div class="rv-5-testimony-reviewer">
+                                    <h5 class="rv-5-testimony-reviewer__name">Douglas Lyphe</h5>
+                                    <span class="rv-5-testimony-reviewer__infos"><span class="service">Wedding</span> - <span class="date">24.08.2023</span></span>
+                                </div>
+                            </div>
+
+                            <div class="rv-5-testimony-txt-slide swiper-slide">
+                                <div class="rv-5-testimony__stars">
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                    <i class="fa-solid fa-sharp fa-star"></i>
+                                </div>
+
+                                <p class="rv-5-testimony__txt"><span>Suspends dictum nil sed sem</span> aliquot convallis. dictum ipsum quips mauri's valuate, quips commode ligula auctor laborites est abet mollies Aliquot digicam aliquot Suspends connecter Justo Maecenas meatus Faubus, maximus ligula at.</p>
+
+                                <div class="rv-5-testimony-reviewer">
+                                    <h5 class="rv-5-testimony-reviewer__name">Kesri Devgan</h5>
+                                    <span class="rv-5-testimony-reviewer__infos"><span class="service">Event Planning</span> - <span class="date">15.09.2023</span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="rv-5-testimonial__slider-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rv-5-testimonial__vectors">
+            <img src="assets/img/rv-5-vector-6.png" alt="Vector" class="rv-5-testimonial__vector rv-5-testimonial__vector-1">
+            <img src="assets/img/rv-5-vector-7.png" alt="Vector" class="rv-5-testimonial__vector rv-5-testimonial__vector-2">
+            <img src="assets/img/rv-5-vector-8.png" alt="Vector" class="rv-5-testimonial__vector rv-5-testimonial__vector-3">
+        </div>
+    </section>
+    <!-- TESTIMONIAL SECTION END -->
+
+
+    <!-- VIDEO SECTION START -->
+    <div class="rv-5-video text-center" data-aos="fade-up">
+        <div class="container">
+            <span>
+                <a href="https://youtu.be/PWbSLgZWBhU?si=fgEd0VhEzqiiSmIN" data-fslightbox>
+                    <i class="fa-solid fa-sharp fa-play"></i>
+                </a>
+            </span>
+        </div>
+    </div>
+    <!-- VIDEO SECTION END -->
+
+
+    <!-- PARTNER SECTION START -->
+    <section class="rv-5-partners" data-aos="fade-up">
+        <div class="container">
+            <div class="rv-5-partners__slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-1.png" alt="Partner Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-2.png" alt="Partner Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-3.png" alt="Partner Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-4.png" alt="Partner Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-5.png" alt="Partner Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-6.png" alt="Partner Logo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/rv-5-partnaer-1.png" alt="Partner Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PARTNER SECTION END -->
+
+
+    <!-- BLOG SECTION START -->
+    <section class="rv-5-blogs rv-section-spacing" data-aos="fade-up">
+        <div class="container">
+            <div class="rv-5-section__heading">
+                <h6 class="rv-5-section__sub-title rv-text-anime">Our Blogs Offers</h6>
+                <h2 class="rv-5-section__title rv-text-anime">From Our Latest News</h2>
+            </div>
+
+            <div class="row rv-5-blogs__row">
+                <div class="col-xl-6 col-lg-5">
+                    <div class="rv-5-blog--left">
+                        <div class="rv-5-blog__img">
+                            <img src="assets/img/rv-5-blog-1.jpg" alt="Blog Image">
+                        </div>
+
+                        <div class="rv-5-blog__txt">
+                            <div class="rv-5-blog__date"><span>24</span>March</div>
+                            <h4 class="rv-5-blog__title"><a href="#" class="rv-text-anime">Please grace us with your presence our wedding.</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-7">
+                    <div class="rv-5-blogs-col">
+                        <div class="rv-5-blog" data-aos="fade-up">
+                            <div class="rv-5-blog__img">
+                                <img src="assets/img/rv-5-blog-2.jpg" alt="Blog Image">
+                            </div>
+                            <div class="rv-5-blog__txt">
+                                <ul class="rv-3-blog__infos">
+                                    <li class="rv-3-blog__info rv-3-blog__cat">Sweet</li>
+                                    <li class="rv-3-blog__info"><img src="assets/img/rv-1-icon-4.png" alt="icon"> June 15, 2023</li>
+                                </ul>
+                                <h4 class="rv-3-blog__title"><a href="#" class="rv-text-anime">These can be referred to as overhead blossoming canopies.</a></h4>
+                                <a href="#" class="rv-4-blog__btn" data-aos="fade-up">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="rv-5-blog" data-aos="fade-up">
+                            <div class="rv-5-blog__img">
+                                <img src="assets/img/rv-5-blog-3.jpg" alt="Blog Image">
+                            </div>
+                            <div class="rv-5-blog__txt">
+                                <ul class="rv-3-blog__infos">
+                                    <li class="rv-3-blog__info rv-3-blog__cat">Ceremony</li>
+                                    <li class="rv-3-blog__info"><img src="assets/img/rv-1-icon-4.png" alt="icon"> May 28, 2023</li>
+                                </ul>
+                                <h4 class="rv-3-blog__title"><a href="#" class="rv-text-anime">The most outstanding gift for the bride and groom.</a></h4>
+                                <a href="#" class="rv-4-blog__btn" data-aos="fade-up">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="rv-5-blog" data-aos="fade-up">
+                            <div class="rv-5-blog__img">
+                                <img src="assets/img/rv-5-blog-4.jpg" alt="Blog Image">
+                            </div>
+                            <div class="rv-5-blog__txt">
+                                <ul class="rv-3-blog__infos">
+                                    <li class="rv-3-blog__info rv-3-blog__cat">Passion</li>
+                                    <li class="rv-3-blog__info"><img src="assets/img/rv-1-icon-4.png" alt="icon"> July 22, 2023</li>
+                                </ul>
+                                <h4 class="rv-3-blog__title"><a href="#" class="rv-text-anime">The highest point of thoughtful presents for the couple.</a></h4>
+                                <a href="#" class="rv-4-blog__btn" data-aos="fade-up">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG SECTION END -->
+
+
+    <!-- GALLERY SECTION START -->
+    <section class="rv-5-gallery" data-aos="fade-up">
+        <div class="row justify-content-center row-cols-md-5 row-cols-3 row-cols-xxs-2">
+            <div class="col">
+                <div class="rv-5-gallery__img">
+                    <button type="button"><i class="fa-brands fa-instagram"></i><span class="txt">instagram</span></button>
+                    <img src="assets/img/rv-5-gallery-1.jpg" alt="Gallery-1">
+                </div>
+            </div>
+            <div class="col">
+                <div class="rv-5-gallery__img">
+                    <button type="button"><i class="fa-brands fa-instagram"></i><span class="txt">instagram</span></button>
+                    <img src="assets/img/rv-5-gallery-2.jpg" alt="Gallery-1">
+                </div>
+            </div>
+            <div class="col">
+                <div class="rv-5-gallery__img">
+                    <button type="button"><i class="fa-brands fa-instagram"></i><span class="txt">instagram</span></button>
+                    <img src="assets/img/rv-5-gallery-3.jpg" alt="Gallery-1">
+                </div>
+            </div>
+            <div class="col">
+                <div class="rv-5-gallery__img">
+                    <button type="button"><i class="fa-brands fa-instagram"></i><span class="txt">instagram</span></button>
+                    <img src="assets/img/rv-5-gallery-4.jpg" alt="Gallery-1">
+                </div>
+            </div>
+            <div class="col">
+                <div class="rv-5-gallery__img">
+                    <button type="button"><i class="fa-brands fa-instagram"></i><span class="txt">instagram</span></button>
+                    <img src="assets/img/rv-5-gallery-5.jpg" alt="Gallery-1">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GALLERY SECTION END -->
+
+
+    <!-- FOOTER SECTION START -->
+    <footer class="rv-1-footer rv-5-footer">
+        <div class="container">
+            <div class="rv-1-footer-top rv-5-footer-top">
+                <div class="row justify-content-start gy-4 gy-sm-5 row-cols-xl-4 row-cols-md-3 row-cols-2 row-cols-xxs-1">
+                    <div class="col-sm col-8">
+                        <div class="rv-1-footer__about">
+                            <a href="index.html"><img src="assets/img/rv-5-logo-light.png" alt="Logo" class="logo"></a>
+                            <p class="rv-1-footer__about-txt">Mauris justo mi, volutpat a lacus eget, laoreet vehicula augue.</p>
+                            <div class="rv-1-socials">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-2">
+                        <div class="rv-1-footer-widget">
+                            <h5 class="rv-1-footer-widget__title rv-5-footer-widget__title">Support</h5>
+                            <ul class="rv-5-footer-widget__links">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Terms of Services</a></li>
+                                <li><a href="#">Refund Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-sm-5">
+                        <div class="rv-1-footer-widget">
+                            <h5 class="rv-1-footer-widget__title rv-5-footer-widget__title">Contact Us</h5>
+                            <ul class="rv-1-footer-widget__infos">
+                                <li><img src="assets/img/rv-1-icon-6.png" alt="icon"> 24th St, New York, NY</li>
+                                <li><img src="assets/img/rv-1-icon-7.png" alt="icon"> <a href="tel:+12365858988">+123 658 589 88</a></li>
+                                <li><img src="assets/img/rv-1-icon-8.png" alt="icon"> <a href="mailto:info@gmail.com">info@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-7 col-8">
+                        <div class="rv-5-footer-timings">
+                            <h5 class="rv-1-footer-widget__title rv-5-footer-widget__title">Opening Hours</h5>
+                            <ul>
+                                <li>
+                                    <span class="key">Monday - Friday : </span>
+                                    <span class="value">08:30 am - 10:00 pm</span>
+                                </li>
+                                <li>
+                                    <span class="key">Saturday - Sunday : </span>
+                                    <span class="value">10:30 am - 08:00 pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rv-1-footer-bottom">
+                <div class="row gy-3">
+                    <div class="col-md-8">
+                        <p class="rv-1-copyright m-0 text-center text-md-start">&copy; 2023 Revel All Rights Reserved by CodeBasket</p>
+                    </div>
+
+                    <div class="col-md-4 text-center text-md-end">
+                        <img src="assets/img/payment_method.png" alt="Payment Method image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- JS FILES -->
+    <script src="assets/vendor/jquery/jquery-3.6.3.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/vendor/syotimer/jquery.syotimer.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/fslightbox/fslightbox.js"></script>
+    <script src="assets/vendor/mixitup/mixitup.min.js"></script>
+    <script src="assets/vendor/gsap/gsap.min.js"></script>
+    <script src="assets/vendor/gsap/gsap-scroll-trigger.min.js"></script>
+    <script src="assets/vendor/split-type/split-type-0.3.3.min.js"></script>
+    <script src="assets/vendor/lenis/lenis.js"></script>
+    <script src="assets/vendor/anime/anime.min.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/search-modal.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from codebasket.xyz/template/revel-multi/demos/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Aug 2024 20:30:15 GMT -->
+</html>
